@@ -5,4 +5,4 @@ for i = 1, 17 do
         local y =  Symbols[x]
         Password[i] = y 
     end
-print(table.concat(Password))
+print("Your password is: " .. table.concat(Password))
